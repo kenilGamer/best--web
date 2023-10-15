@@ -1,0 +1,38 @@
+@media (max-width: 450px) {
+    #main{
+        width: 100%;
+        height: 106vh;
+        background-color: black;
+    }
+    #nav{
+        width:100%;
+        padding: 6px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #hero{
+        top: 50%;
+        left: 0;
+        
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        /* background-color: #005; */
+        transform: translate(0%,-45%);
+    }
+    #heroright{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        background-color: rgb(14, 174, 176);
+    
+    }
+    #imagediv{
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+}
